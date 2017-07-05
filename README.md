@@ -20,7 +20,7 @@ electron_mirror=https://npm.taobao.org/mirrors/electron/
 registry=https://registry.npm.taobao.org
 ```
 
--  ExtractTextPlugin中指明pulicPath，表示抽取出去的css中引用其他文件的前缀。
+-  ExtractTextPlugin中指明pulicPath，表示抽取出去的css中引用其他文件,如ttf的前缀。
 ```javascript
 return ExtractTextPlugin.extract({
         use: loaders,
