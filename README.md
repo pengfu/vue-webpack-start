@@ -2,20 +2,6 @@
 
 > A Vue.js project
 
-## Build Setup
+## 备注
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- output.publicPath 表示生成js或者css嵌入html中的引用路径。这里，我修改了config.build.assetsPublicPath为‘’，否则引用路径会有点小问题。
