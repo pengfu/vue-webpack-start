@@ -1,15 +1,14 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+
+import './assets/scss/style.scss'
+import './assets/scss/main.scss'
 import Vue from 'vue'
-import App from './App'
-import router from './router'
+import BoardView from './components/BoardView.vue'
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
+  el: '#boardDiv',
+  components: { BoardView }
 })
