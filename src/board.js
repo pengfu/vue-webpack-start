@@ -175,3 +175,5 @@ Board.prototype.hasLost = function () {
     }
     return !canMove;
 };
+
+export {Board}

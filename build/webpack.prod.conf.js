@@ -91,14 +91,6 @@ var webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-
-    // 拷贝文件
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, '../src/board.js'),
-        to: path.join(config.build.assetsSubDirectory,'js'),
-      }
-    ])
   ]
 })
 
